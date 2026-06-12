@@ -1,0 +1,38 @@
+---
+name: my-skills
+description: '展示我独立安装的 skill 及触发词。当用户问"我有哪些skill"、"skill列表"、"可用技能"、"触发词"时使用。'
+---
+
+# 我的 Skills
+
+> 仅统计独立安装的 skill（不含内置）
+
+---
+
+| 分类 | 父Skill | 子Skill | 触发词 |
+|------|---------|---------|--------|
+| 💰 投资 | deep-analysis | investor-panel | 投资评审、大佬评审、多角度分析 |
+| 💰 投资 | deep-analysis | lhb-analyzer | 龙虎榜、谁在买、游资、机构 |
+| 💰 投资 | deep-analysis | trap-detector | 杀猪盘、朋友推荐、群里说 |
+| 💰 投资 | deep-analysis | uzi-skill-pitfalls | UZI分析、股票陷阱 |
+| 💰 投资 | deep-analysis | — | 深度分析、DCF、值不值得买 |
+| 🎨 设计 | qiaomu-mondo-poster-design | — | Mondo风格、海报设计、书籍封面 |
+| 🎨 设计 | kami | — | 简历、PPT、一页纸、落地页、排版 |
+| 📱 社交 | wewrite | — | 公众号、微信文章 |
+| 📱 社交 | xiaohongshu-mcp | — | 小红书、发布笔记 |
+| 📱 社交 | follow-builders | — | AI日报、每日讯息 |
+| 🔮 命理 | bazi | — | 八字、命理、四柱 |
+| 🔧 运维 | docker-deployment | — | Docker部署、容器 |
+| 🔧 运维 | reverse-proxy | — | Nginx反代、域名配置、SSL |
+| 🎤 语音 | tts-voice-messaging | — | TTS、语音合成 |
+| 📰 资讯 | daily-ai-news | — | AI新闻、科技资讯 |
+| 🔍 搜索 | smart-search-cli | — | 智能搜索 |
+| 📊 收藏 | repo-collector | — | 收集仓库 |
+| 📊 飞书 | feishu-doc-api | — | 飞书文档API |
+| ⚠️ 陷阱 | lark-cli-pitfalls | — | lark-cli报错、飞书API异常 |
+
+---
+
+**统计：** 6个分类，19个skill（1个父skill + 4个子skill + 14个独立skill）
+
+**维护**：安装新 skill 后更新此表。
