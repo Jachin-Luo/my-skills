@@ -1,26 +1,832 @@
 {
-  "generated_at": "2026-06-13T03:42:24+00:00",
+  "generated_at": "2026-06-13T04:38:28+00:00",
   "include_system": false,
   "roots": [
-    "D:\\Coding\\my-skills",
-    "C:\\Users\\40799\\.codex\\skills",
-    "C:\\Users\\40799\\.agents\\skills"
+    "/home/ubuntu/.hermes/skills"
   ],
-  "count": 2,
+  "count": 103,
   "skills": [
     {
-      "name": "grill-me",
-      "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
-      "path": "C:\\Users\\40799\\.agents\\skills\\grill-me",
-      "source": "agents",
+      "name": "airtable",
+      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/airtable",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "apple-notes",
+      "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+      "path": "/home/ubuntu/.hermes/skills/apple/apple-notes",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "apple-reminders",
+      "description": "Apple Reminders via remindctl: add, list, complete.",
+      "path": "/home/ubuntu/.hermes/skills/apple/apple-reminders",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "architecture-diagram",
+      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "path": "/home/ubuntu/.hermes/skills/creative/architecture-diagram",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "arxiv",
+      "description": "Search arXiv papers by keyword, author, category, or ID.",
+      "path": "/home/ubuntu/.hermes/skills/research/arxiv",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "ascii-art",
+      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "path": "/home/ubuntu/.hermes/skills/creative/ascii-art",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "ascii-video",
+      "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "path": "/home/ubuntu/.hermes/skills/creative/ascii-video",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "audiocraft-audio-generation",
+      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/models/audiocraft",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "description": "Article illustrations: type × style × palette consistency.",
+      "path": "/home/ubuntu/.hermes/skills/creative/baoyu-article-illustrator",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "baoyu-comic",
+      "description": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+      "path": "/home/ubuntu/.hermes/skills/creative/baoyu-comic",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "baoyu-infographic",
+      "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+      "path": "/home/ubuntu/.hermes/skills/creative/baoyu-infographic",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "path": "/home/ubuntu/.hermes/skills/research/blogwatcher",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "claude-code",
+      "description": "Delegate coding to Claude Code CLI (features, PRs).",
+      "path": "/home/ubuntu/.hermes/skills/autonomous-ai-agents/claude-code",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "claude-design",
+      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "path": "/home/ubuntu/.hermes/skills/creative/claude-design",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "codebase-inspection",
+      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "path": "/home/ubuntu/.hermes/skills/github/codebase-inspection",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "codex",
+      "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "path": "/home/ubuntu/.hermes/skills/autonomous-ai-agents/codex",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "comfyui",
+      "description": "Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.",
+      "path": "/home/ubuntu/.hermes/skills/creative/comfyui",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "comic-creator",
+      "description": "|",
+      "path": "/home/ubuntu/.hermes/skills/comic-creator",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "daily-ai-news",
+      "description": "Daily AI news aggregation: fetch from multiple sources, categorize by topic (not source), publish to Feishu wiki.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/daily-ai-news",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "debugging-hermes-tui-commands",
+      "description": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/debugging-hermes-tui-commands",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "design-md",
+      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "path": "/home/ubuntu/.hermes/skills/creative/design-md",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "docker-deployment",
+      "description": "Install Docker on Linux and deploy containers using Docker Compose — standard setup, permission pitfalls, and terminal-tool integration patterns.",
+      "path": "/home/ubuntu/.hermes/skills/devops/docker-deployment",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "dogfood",
+      "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "path": "/home/ubuntu/.hermes/skills/dogfood",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "dspy",
+      "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/research/dspy",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "path": "/home/ubuntu/.hermes/skills/mlops/evaluation/lm-evaluation-harness",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "excalidraw",
+      "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "path": "/home/ubuntu/.hermes/skills/creative/excalidraw",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "feishu-doc-api",
+      "description": "Create, edit, and manage Feishu/Lark documents and wiki spaces — document CRUD via Open API, wiki node management via lark-cli, permission management, ownership transfer.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/feishu-doc-api",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "feishu-wiki-management",
+      "description": "Manage Feishu/Lark wiki spaces — create docs, organize into wiki nodes, discover spaces, move documents, daily content aggregation. Use when user asks to create, move, or organize Feishu documents in wiki/knowledge base.",
+      "path": "/home/ubuntu/.hermes/skills/.archive/feishu-wiki-management",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "findmy",
+      "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+      "path": "/home/ubuntu/.hermes/skills/apple/findmy",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "gif-search",
+      "description": "Search/download GIFs from Tenor via curl + jq.",
+      "path": "/home/ubuntu/.hermes/skills/media/gif-search",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "github-auth",
+      "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "path": "/home/ubuntu/.hermes/skills/github/github-auth",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "github-code-review",
+      "description": "Review PRs: diffs, inline comments via gh or REST.",
+      "path": "/home/ubuntu/.hermes/skills/github/github-code-review",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "github-issues",
+      "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "path": "/home/ubuntu/.hermes/skills/github/github-issues",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "github-pr-workflow",
+      "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "path": "/home/ubuntu/.hermes/skills/github/github-pr-workflow",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "github-repo-management",
+      "description": "Clone/create/fork repos; manage remotes, releases.",
+      "path": "/home/ubuntu/.hermes/skills/github/github-repo-management",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "godmode",
+      "description": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+      "path": "/home/ubuntu/.hermes/skills/red-teaming/godmode",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "google-workspace",
+      "description": "Google OAuth2 client credentials (downloaded from Google Cloud Console)",
+      "path": "/home/ubuntu/.hermes/skills/productivity/google-workspace",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "heartmula",
+      "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "path": "/home/ubuntu/.hermes/skills/media/heartmula",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "hermes-agent",
+      "description": "Configure, extend, or contribute to Hermes Agent.",
+      "path": "/home/ubuntu/.hermes/skills/autonomous-ai-agents/hermes-agent",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "description": "Author in-repo SKILL.md: frontmatter, validator, structure.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/hermes-agent-skill-authoring",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "hermes-gateway-platform-setup",
+      "description": "Configure Hermes gateway messaging platforms (Telegram, Discord, Feishu, Slack, etc.). Covers the general pattern plus per-platform specifics.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/hermes-gateway-platform-setup",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "hermes-s6-container-supervision",
+      "description": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/hermes-s6-container-supervision",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "himalaya",
+      "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "path": "/home/ubuntu/.hermes/skills/email/himalaya",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "huggingface-hub",
+      "description": "HuggingFace hf CLI: search/download/upload models, datasets.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/huggingface-hub",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "humanizer",
+      "description": "Humanize text: strip AI-isms and add real voice.",
+      "path": "/home/ubuntu/.hermes/skills/creative/humanizer",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "ideation",
+      "description": "Generate project ideas via creative constraints.",
+      "path": "/home/ubuntu/.hermes/skills/creative/creative-ideation",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "imessage",
+      "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "path": "/home/ubuntu/.hermes/skills/apple/imessage",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "path": "/home/ubuntu/.hermes/skills/data-science/jupyter-live-kernel",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "kanban-codex-lane",
+      "description": "Use when a Hermes Kanban worker wants to run Codex CLI as an isolated implementation lane while Hermes keeps ownership of task lifecycle, reconciliation, testing, and handoff.",
+      "path": "/home/ubuntu/.hermes/skills/autonomous-ai-agents/kanban-codex-lane",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "kanban-orchestrator",
+      "description": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role.",
+      "path": "/home/ubuntu/.hermes/skills/devops/kanban-orchestrator",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "kanban-worker",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+      "path": "/home/ubuntu/.hermes/skills/devops/kanban-worker",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "lark-cli-pitfalls",
+      "description": "lark-cli 使用陷阱和解决方案。当 lark-cli 命令报错或行为异常时加载此 skill。",
+      "path": "/home/ubuntu/.hermes/skills/.archive/lark-cli-pitfalls",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "linear",
+      "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/linear",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "llama-cpp",
+      "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/inference/llama-cpp",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "llm-wiki",
+      "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "path": "/home/ubuntu/.hermes/skills/research/llm-wiki",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "macos-computer-use",
+      "description": "|",
+      "path": "/home/ubuntu/.hermes/skills/apple/macos-computer-use",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "manim-video",
+      "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
+      "path": "/home/ubuntu/.hermes/skills/creative/manim-video",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "maps",
+      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/maps",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "minecraft-modpack-server",
+      "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "path": "/home/ubuntu/.hermes/skills/gaming/minecraft-modpack-server",
+      "source": "hermes",
       "parent": "",
       "level": 0
     },
     {
       "name": "my-skills",
       "description": "List, summarize, and help users browse the actively installed skills available in an AI platform or local skill directories. Use when the user asks what skills are installed, available, active, personally installed, usable, or how to trigger/use their skills; especially for prompts like \"我有哪些 skill\", \"列出已安装技能\", \"show my skills\", \"available skills\", \"skill list\", or \"how do I use my skills\".",
-      "path": "D:\\Coding\\my-skills",
-      "source": "workspace",
+      "path": "/home/ubuntu/.hermes/skills/my-skills",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "nano-pdf",
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "path": "/home/ubuntu/.hermes/skills/productivity/nano-pdf",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "native-mcp",
+      "description": "MCP client: connect servers, register tools (stdio/HTTP).",
+      "path": "/home/ubuntu/.hermes/skills/mcp/native-mcp",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "node-inspect-debugger",
+      "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/node-inspect-debugger",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "notion",
+      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/notion",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "obliteratus",
+      "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+      "path": "/home/ubuntu/.hermes/skills/mlops/inference/obliteratus",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "obsidian",
+      "description": "Read, search, create, and edit notes in the Obsidian vault.",
+      "path": "/home/ubuntu/.hermes/skills/note-taking/obsidian",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "ocr-and-documents",
+      "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "path": "/home/ubuntu/.hermes/skills/productivity/ocr-and-documents",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "opencode",
+      "description": "Delegate coding to OpenCode CLI (features, PR review).",
+      "path": "/home/ubuntu/.hermes/skills/autonomous-ai-agents/opencode",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "openhue",
+      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "path": "/home/ubuntu/.hermes/skills/smart-home/openhue",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "p5js",
+      "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "path": "/home/ubuntu/.hermes/skills/creative/p5js",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "pixel-art",
+      "description": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "path": "/home/ubuntu/.hermes/skills/creative/pixel-art",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "plan",
+      "description": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/plan",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "pokemon-player",
+      "description": "Play Pokemon via headless emulator + RAM reads.",
+      "path": "/home/ubuntu/.hermes/skills/gaming/pokemon-player",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "polymarket",
+      "description": "Query Polymarket: markets, prices, orderbooks, history.",
+      "path": "/home/ubuntu/.hermes/skills/research/polymarket",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "popular-web-designs",
+      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+      "path": "/home/ubuntu/.hermes/skills/creative/popular-web-designs",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "powerpoint",
+      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/powerpoint",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "pretext",
+      "description": "Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.",
+      "path": "/home/ubuntu/.hermes/skills/creative/pretext",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "python-debugpy",
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "path": "/home/ubuntu/.hermes/skills/software-development/python-debugpy",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "repo-collector",
+      "description": "Collect and archive GitHub open-source projects into a Feishu Bitable. Trigger when user provides a GitHub repo in author/repo format with keywords like collect, 收藏, GitHub, or repo.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/repo-collector",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/requesting-code-review",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "research-paper-writing",
+      "description": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+      "path": "/home/ubuntu/.hermes/skills/research/research-paper-writing",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "reverse-proxy",
+      "description": "Nginx reverse proxy + SSL + DNS for public-facing services. Covers Cloudflare Origin Certificates, Tencent Cloud security groups, and the full workflow from container port to HTTPS domain.",
+      "path": "/home/ubuntu/.hermes/skills/devops/reverse-proxy",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "segment-anything-model",
+      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/models/segment-anything",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "serving-llms-vllm",
+      "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/inference/vllm",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "sketch",
+      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "path": "/home/ubuntu/.hermes/skills/creative/sketch",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "smart-search-cli",
+      "description": "CLI-first web research and source retrieval through the local smart-search command. Use when Codex needs current web search, source-backed fact checking, URL fetching, site mapping, official/API/documentation search, or reproducible search evidence via Skill + CLI instead of MCP tools.",
+      "path": "/home/ubuntu/.hermes/skills/smart-search-cli",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "songsee",
+      "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "path": "/home/ubuntu/.hermes/skills/media/songsee",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "description": "Songwriting craft and Suno AI music prompts.",
+      "path": "/home/ubuntu/.hermes/skills/creative/songwriting-and-ai-music",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "spike",
+      "description": "Throwaway experiments to validate an idea before build.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/spike",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "spotify",
+      "description": "Spotify: play, search, queue, manage playlists and devices.",
+      "path": "/home/ubuntu/.hermes/skills/media/spotify",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Execute plans via delegate_task subagents (2-stage review).",
+      "path": "/home/ubuntu/.hermes/skills/software-development/subagent-driven-development",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/systematic-debugging",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "description": "Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.",
+      "path": "/home/ubuntu/.hermes/skills/productivity/teams-meeting-pipeline",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "test-driven-development",
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/test-driven-development",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "description": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+      "path": "/home/ubuntu/.hermes/skills/creative/touchdesigner-mcp",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "tts-voice-messaging",
+      "description": "Text-to-speech and voice message delivery for messaging platforms. Install TTS plugins, handle platform-specific audio formats (Feishu ogg, Telegram opus, etc.), and configure voice providers (MiMo, Edge, ElevenLabs).",
+      "path": "/home/ubuntu/.hermes/skills/.archive/tts-voice-messaging",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "uzi-skill-pitfalls",
+      "description": "Pitfalls and environment fixes for UZI-Skill (deep-analysis) on this server. Covers LITE mode traps, Python 3.11 syntax errors, Playwright setup, and report deployment.",
+      "path": "/home/ubuntu/.hermes/skills/finance/uzi-skill-pitfalls",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "webhook-subscriptions",
+      "description": "Webhook subscriptions: event-driven agent runs.",
+      "path": "/home/ubuntu/.hermes/skills/devops/webhook-subscriptions",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "weights-and-biases",
+      "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "path": "/home/ubuntu/.hermes/skills/mlops/evaluation/weights-and-biases",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "writing-plans",
+      "description": "Write implementation plans: bite-sized tasks, paths, code.",
+      "path": "/home/ubuntu/.hermes/skills/software-development/writing-plans",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "xurl",
+      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "path": "/home/ubuntu/.hermes/skills/social-media/xurl",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "youtube-content",
+      "description": "YouTube transcripts to summaries, threads, blogs.",
+      "path": "/home/ubuntu/.hermes/skills/media/youtube-content",
+      "source": "hermes",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "yuanbao",
+      "description": "Yuanbao (元宝) groups: @mention users, query info/members.",
+      "path": "/home/ubuntu/.hermes/skills/yuanbao",
+      "source": "hermes",
       "parent": "",
       "level": 0
     }
