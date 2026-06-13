@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-13T03:42:24+00:00",
+  "include_system": false,
+  "roots": [
+    "D:\\Coding\\my-skills",
+    "C:\\Users\\40799\\.codex\\skills",
+    "C:\\Users\\40799\\.agents\\skills"
+  ],
+  "count": 2,
+  "skills": [
+    {
+      "name": "grill-me",
+      "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
+      "path": "C:\\Users\\40799\\.agents\\skills\\grill-me",
+      "source": "agents",
+      "parent": "",
+      "level": 0
+    },
+    {
+      "name": "my-skills",
+      "description": "List, summarize, and help users browse the actively installed skills available in an AI platform or local skill directories. Use when the user asks what skills are installed, available, active, personally installed, usable, or how to trigger/use their skills; especially for prompts like \"我有哪些 skill\", \"列出已安装技能\", \"show my skills\", \"available skills\", \"skill list\", or \"how do I use my skills\".",
+      "path": "D:\\Coding\\my-skills",
+      "source": "workspace",
+      "parent": "",
+      "level": 0
+    }
+  ]
+}
